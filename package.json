@@ -1,0 +1,32 @@
+{
+  "name": "bookseller",
+  "version": "1.0.0",
+  "description": "book seller using Node.js and Stripe api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimelj/StripeAPI.git"
+  },
+  "keywords": [
+    "stripe",
+    "api",
+    "node",
+    "book",
+    "sell"
+  ],
+  "author": "Jimel J. Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimelj/StripeAPI/issues"
+  },
+  "homepage": "https://github.com/jimelj/StripeAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.1.1"
+  }
+}
